@@ -1,6 +1,6 @@
 ## Overall Idea: Workout Tracker
-Design a website [and an android app later] that allows users to input daily workout habits.
-Potential follow up: Spending Tracker[Personal income and expenditure records]. 
+Design a website [and an Android app later] that allows users to input daily workout habits.
+Potential follow-up: Spending Tracker[Personal income and expenditure records]. 
 
 ## Technical stack: 
 1. Front-End: Simple UI -> react.js
@@ -9,19 +9,19 @@ Potential follow up: Spending Tracker[Personal income and expenditure records].
 4. Android Related
 
 ## Program Logic
-Need more details infuture. 
+Need more details in future. 
 
-## What we need learn:
-- database
-- REST-api
-- java
-- springboot
-- android related..
-- remote server (aws)
-- domain hosting
+## What we need to learn:
+- Database
+- RESTful API
+- Java
+- SpringBoot
+- Android related...
+- Remote server (aws)
+- Domain hosting
 
 ## Milestones: 
-1) Basic Learning (long term)
+1) Basic Learning (long-term)
 2) Program logic + database development
 3) Design middleware + basic frontend
 4) deploy on remote server & integration test
@@ -31,7 +31,7 @@ Need more details infuture.
 ## Workflow[Agile]
 - Overall:
   1. Create an issue for the feature/bug.
-  2. Create(branch out) a feature/bugFix branch from `Prod`(production/develop) branch. The branch name should be `Issue number: Issue Name`.  
+  2. Create(branch out) a feature/bugFix branch from `Prod`(production/develop) branch. The branch name should be `Issue number Issue Name`. For example, `2-Create-Design-Document`. 
   3. Working on the task.
   4. After completing the programming task, create a PR for the issue.
   5. Other team members will review and comment on the PR.
