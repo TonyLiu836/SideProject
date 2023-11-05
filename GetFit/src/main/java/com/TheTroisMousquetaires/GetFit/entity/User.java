@@ -1,14 +1,14 @@
 package com.TheTroisMousquetaires.GetFit.entity;
 
 public class User {
-    String name;
-    String email;
-    String phoneNumber;
-    String location;
-    String gender;
-    double height;
-    double weight;
-    double bodyFatPecentage;
+    public String name;
+    private String email;
+    private String phoneNumber;
+    private String location;
+    private String gender;
+    private double height;
+    private double weight;
+    private double bodyFatPecentage;
     public User(String name, String email){
         this.name = name;
         this.email = email;
