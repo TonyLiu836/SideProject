@@ -55,7 +55,7 @@ public class Cardio implements IExerciseEvent {
 
     @Override
     public String toString() {
-        return "Exercise name: " + name + ", Distance: " + distance + " " + unit;
+        return "Exercise name: " + name + ", Distance: " + distance + " " + unit.toString();
     }
 
 }
