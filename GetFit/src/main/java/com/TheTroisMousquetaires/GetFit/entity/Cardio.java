@@ -7,12 +7,14 @@ public class Cardio implements IExerciseEvent {
     private double distance;
     private DistanceUnit unit;
     private Duration duration;
+    private String additionalNotes;
 
     public Cardio(String name, double distance, DistanceUnit unit, Duration duration) {
         this.name = name;
         this.distance = distance;
         this.unit = unit;
         this.duration = duration;
+        this.additionalNotes = "";
     }
 
     // Implement the methods from the IExerciseEvent interface
@@ -28,7 +30,7 @@ public class Cardio implements IExerciseEvent {
 
     @Override
     public String getAdditionalNotes() {
-       return "0";
+       return this.additionalNotes;
     }
 
     @Override

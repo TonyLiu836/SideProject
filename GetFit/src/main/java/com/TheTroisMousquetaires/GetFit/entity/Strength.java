@@ -9,6 +9,7 @@ public class Strength implements IExerciseEvent {
     private int reps;
     private Duration duration;
     private WeightUnit weightUnit;
+    private String additionalNotes;
 
     public Strength(String name, double weight, int reps, Duration duration, WeightUnit weightUnit) {
         this.name = name;
@@ -16,6 +17,7 @@ public class Strength implements IExerciseEvent {
         this.reps = reps;
         this.duration = duration;
         this.weightUnit = weightUnit;
+        this.additionalNotes = "";
     }
 
     // Implement the methods from the IExerciseEvent interface
@@ -32,7 +34,7 @@ public class Strength implements IExerciseEvent {
 
     @Override
     public String getAdditionalNotes() {
-        return "0";
+        return this.additionalNotes;
     }
 
     @Override
