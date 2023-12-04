@@ -18,10 +18,9 @@ public class Custom implements IExerciseEvent {
         this.weight = weight;
         this.reps = reps;
         this.duration = duration;
-        this.additionalNotes = ""; // Initialize additionalNotes to an empty string
+        this.additionalNotes = "";
     }
 
-    // Implement the methods from the IExerciseEvent interface
     @Override
     public Duration getDuration() {
         return this.duration;

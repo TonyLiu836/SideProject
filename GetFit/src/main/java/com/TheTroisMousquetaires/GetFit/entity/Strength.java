@@ -20,8 +20,6 @@ public class Strength implements IExerciseEvent {
         this.additionalNotes = "";
     }
 
-    // Implement the methods from the IExerciseEvent interface
-
     @Override
     public Duration getDuration() {
        return this.duration;
@@ -42,7 +40,6 @@ public class Strength implements IExerciseEvent {
        
     }
 
-    // Getter and Setter for name
     public String getName() {
       return name;
     }
@@ -51,7 +48,6 @@ public class Strength implements IExerciseEvent {
         this.name = name;
     }
 
-    // Getter and Setter for weight
     public double getWeight() {
       return weight;
     }
@@ -60,7 +56,6 @@ public class Strength implements IExerciseEvent {
         this.weight = weight;
     }
 
-    // Getter and Setter for reps
     public int getReps() {
         return reps;
     }

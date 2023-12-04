@@ -8,33 +8,29 @@ public class Flexibility implements IExerciseEvent {
     private Duration duration;
     private String additionalNotes;
 
-    public Flexibility(String name) {
+    public Flexibility(String name, Duration duration) {
         this.name = name;
+        this.duration = duration;
         this.additionalNotes = "";
     }
 
-    // Implement the methods from the IExerciseEvent interface
     @Override
     public Duration getDuration() {
-        // Flexibility exercises typically do not have a duration, so return a default value
         return this.duration;
     }
 
     @Override
     public void setDuration(Duration duration) {
-        // Flexibility exercises typically do not have a duration, so do nothing
         this.duration = duration;
     }
 
     @Override
     public String getAdditionalNotes() {
-        // You can add additional notes specific to this flexibility exercise here
         return this.additionalNotes;
     }
 
     @Override
     public void setAdditionalNotes(String additionalNotes) {
-        // You can set additional notes specific to this flexibility exercise here
         this.additionalNotes = additionalNotes;
     }
 

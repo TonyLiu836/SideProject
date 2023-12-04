@@ -17,7 +17,6 @@ public class Cardio implements IExerciseEvent {
         this.additionalNotes = "";
     }
 
-    // Implement the methods from the IExerciseEvent interface
     @Override
     public Duration getDuration() {
         return this.duration;
@@ -37,7 +36,6 @@ public class Cardio implements IExerciseEvent {
     public void setAdditionalNotes(String additionalNotes) {
     }
 
-    // Getter and Setter for name
     public String getName() {
       return name;
     }
@@ -46,7 +44,6 @@ public class Cardio implements IExerciseEvent {
         this.name = name;
     }
 
-    // Getter and Setter for distance
     public double getDistance() {
         return distance;
     }
